@@ -1,0 +1,25 @@
+# --- OS / editor junk ---
+.DS_Store
+*~
+
+# --- Run intermediates / outputs ---
+CV[0-9]*.tmp
+CVs_widths.dat
+restraints.dat
+serials
+serials_ok
+serials_RoG
+serials_xy
+serials_xz
+serials_yz
+COLVAR*
+HILLS*
+BIAS
+WALLS_ALL
+
+# --- Trajectories / structures (never commit) ---
+*.xtc
+*.trr
+*.dcd
+*.gro
+*.pdb
