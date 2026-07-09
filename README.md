@@ -16,6 +16,11 @@ The four collective variables describe binding-site shape:
 
 Each replica biases one CV; PLUMED's `RANDOM_EXCHANGES` swaps them.
 
+> **Background.** This setup implements the binding-pocket enhanced-sampling
+> approach from **gEDES** (<https://github.com/vargiulab/gEDES>). For the full
+> method and a step-by-step walkthrough, see the tutorial:
+> <https://molmod.dsf.unica.it/enhanced-sampling-of-binding-pocket-volume-and-shape-tutorial/>.
+
 ---
 
 ## Workflow
